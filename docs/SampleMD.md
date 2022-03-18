@@ -21,17 +21,15 @@ Delete the stuff between "How to create your new topic" to just before this late
 
 Do the following:
 
-1  Place graphic in images folder (under docs folder). For example: genevaers-color.svg
-1  Place following text in body of topic: 
+1.  Place graphic in images folder (under docs folder). For example: genevaers-color.svg
+1.  Place following text in body of topic: 
 
     ```` 
-        ![Missing image](assets/genevaers-color.png)
+        ![Missing image](./images/genevaers-color.svg)
     ```` 
 
-The result is
-
-    ![Missing image](assets/genevaers-color.png)
-
+The result is ![Missing image](./images/genevaers-color.svg)
+  
 # Links in our topic
 
 Place following text in body of topic:  
@@ -41,5 +39,5 @@ Place following text in body of topic:
 
 [Home](index)
 
-The target topic is where "index" is - there must be a forward slash and NO EXTENSION (e.g. no .md).
+The target topic is where "index" is - there must NO EXTENSION (e.g. no .md).
 
