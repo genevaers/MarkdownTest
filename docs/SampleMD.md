@@ -24,11 +24,11 @@ Do the following:
 1.  Place graphic in images folder (under docs folder). For example: genevaers-color.svg
 1.  Place following text in body of topic: 
 
-    ```` 
-        ![Missing image](./images/genevaers-color.svg)
-    ```` 
+    ````````  
+    ![Missing image]( ./images/genevaers-color.svg )
+    ````````
 
-The result is ![Missing image](./images/genevaers-color.svg)
+The result is ![Missing image]( ./images/genevaers-color.svg )
   
 # Links in our topic
 
