@@ -21,14 +21,14 @@ Delete the stuff between "How to create your new topic" to just before this late
 
 Do the following:
 
-1.  Place graphic in images folder (under docs folder). For example: genevaers-color.svg
+1.  Place graphic in images folder. It already contains genevaers-color.svg, for example.
 1.  Place following text in body of topic: 
 
     ````````  
-    ![Missing image]( ./images/genevaers-color.svg )
+    ![Missing image]( ../images/genevaers-color.svg )
     ````````
 
-The result is ![Missing image]( ./images/genevaers-color.svg )
+The result is ![Missing image]( ../images/genevaers-color.svg )
   
 # Links in our topic
 
