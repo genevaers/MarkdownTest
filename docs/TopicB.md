@@ -8,10 +8,10 @@ nav_order: 21
 
 # Graphics in Topic B 
     ````````  
-    ![Missing image]( ../images/genevaers-color.svg )
+    ![Missing image]( ./images/genevaers-color.svg )
     ````````
 
-The result is ![Missing image]( ../images/genevaers-color.svg )
+The result is ![Missing image]( ./images/genevaers-color.svg )
   
 # Useful Links 
 
@@ -20,6 +20,6 @@ Place following text in body of topic:
         [Topic A](TopicA)
     ````
 
-[Toopic A](TopicA)
+[Topic A](TopicA)
 
 [Home](index)

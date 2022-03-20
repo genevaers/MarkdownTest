@@ -20,7 +20,7 @@ Place following text in body of topic:
         [Topic B](TopicB)
     ````
 
-[Toopic B](TopicB)
+[Topic B](TopicB)
 
 [Home](index)
 
