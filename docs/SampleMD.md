@@ -25,6 +25,7 @@ Place following text in body of topic:
         [Home](index)
     ````
 
+The link displays as:    
 [Home](index)
 
 The target topic is where "index" is - there must NO EXTENSION (e.g. no .md).
