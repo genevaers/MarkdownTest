@@ -43,10 +43,21 @@ There are two ways to refer to an image: (a) markdown coding and (b) html coding
 Markdown coding means using the following text.  IF THAT LINE ONLY CONSISTS OF 4 OR MORE SPACES AND THEN THE IMAGE CODING BELOW IT WILL FAIL.  Ensure LESS SPACES BEFOREE the exclamation mark:
 
     ````````  
-    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
+    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg )to see what I mean.
     ````````
 
 Note: the spaces before and after image file path is for safety - without them we can get problems with "regular expressions" and other coding issues.
+  
+The result is:
+
+ See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
+  
+This suits an icon.  For example image SampleIcon.jpg.  Use this coding.
+
+    ````````  
+    Press this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+    ````````
+
 The result is:
 
  See my fantastic image        ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
@@ -63,12 +74,14 @@ Press this icon  ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy
 
 So Markdown coding works well for icons.  Howeveer, for most other situations we will see html coding is more useful.
 
+
 # Size the image
 
 This is where we use html coding instead.
 Use the "width" property.
 
     See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
+
     
 Note: the space before the dot slash and the space after jpg are for safety - without them we can get problems with "regular expressions" and other coding issues.
 
@@ -92,6 +105,7 @@ To center the image use more html coding:
 
     <p align="center"> Some text to the left.
     <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>   Some text to the right.
+
     </p>
 
  The result is:
@@ -102,20 +116,16 @@ To center the image use more html coding:
 
 The text that follows the closing p tag is below the image.
 
-
-
 # Left align - simple
 
-Use the markdown coding shown earlier - the image is left aligned with wrap around text. 
-
-To specify left in html coding, do this:
+Use this html coding:
 
      <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>  The text that follows wraps around and is very close to the image.  You may want change your image to include some white space on the right hand side.
-
 
  The result is:
 
  <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>  The text that follows wraps around and is very close to the image.  You may want change your image to include some white space on the right hand side.
+
 
 
 # Left align - more control
@@ -161,7 +171,6 @@ Use this html coding:
  </p>
 
 The text after the closing p tag is below the image.
-
 
 
 # Image text displays but no image !
