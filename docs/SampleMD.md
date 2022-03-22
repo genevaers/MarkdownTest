@@ -40,29 +40,41 @@ Two steps:
 
 There are two ways to refer to an image: (a) markdown coding and (b) html coding.  Option (b) is recommended, but I'll show you both.
 
-Markdown coding means using the following text.  IF THAT LINE CONSISTS OF 4 OR MORE SPACES AND THEN THE IMAGE CODING BELOW IT WILL FAIL.  Ensure less spaces before the exclamation mark:
+Markdown coding means using the following text.  IF THAT LINE ONLY CONSISTS OF 4 OR MORE SPACES AND THEN THE IMAGE CODING BELOW IT WILL FAIL.  Ensure LESS SPACES BEFOREE the exclamation mark:
 
     ````````  
-    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg )
+    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
     ````````
 
 Note: the spaces before and after image file path is for safety - without them we can get problems with "regular expressions" and other coding issues.
 The result is:
 
- See my fantastic image        ![(Missing image)]( ./images/SampleImage.jpg )
-  
+ See my fantastic image        ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
+    
+This works well for an icon - see this example.
+ 
+    ````````  
+    Press this icon  ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+    ````````
+
+The result is:
+
+Press this icon  ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+
+So Markdown coding works well for icons.  Howeveer, for most other situations we will see html coding is more useful.
 
 # Size the image
 
 This is where we use html coding instead.
 Use the "width" property.
 
-    See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+    See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
     
-Note: the space around the reference to the image file is for safety - without them we can get problems with "regular expressions" and other coding issues.
-You get the following.
+Note: the space before the dot slash and the space after jpg are for safety - without them we can get problems with "regular expressions" and other coding issues.
 
-See my fantastic image <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+With the above coding, we get the following.
+
+See my fantastic image <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
 
 
 Height can be specified but does not work.  Whether you put width and height or just height nothing happens.  For example:
@@ -78,83 +90,77 @@ The result is:
 
 To center the image use more html coding:
 
-    <p align="center">
-    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+    <p align="center"> Some text to the left.
+    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>   Some text to the right.
     </p>
 
  The result is:
 
- <p align="center">
- <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+ <p align="center">  Some text to the left.
+ <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  Some text to the right.
  </p>
 
-The text that follows is below the image.
+The text that follows the closing p tag is below the image.
 
 
 
-# Left align the image with text wrap
+# Left align - simple
 
 Use the markdown coding shown earlier - the image is left aligned with wrap around text. 
 
 To specify left in html coding, do this:
 
-     <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>
+     <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>  The text that follows wraps around and is very close to the image.  You may want change your image to include some white space on the right hand side.
+
 
  The result is:
 
- <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>
-
-The text that follows wraps around and is very close to the image.  You may want change your image to include some white space on the right hand side.
+ <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="left" width="100"/>  The text that follows wraps around and is very close to the image.  You may want change your image to include some white space on the right hand side.
 
 
-# Left align the image without text wrap
+# Left align - more control
 
 Use this html coding:
 
-    <p align="left">
-    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+    <p align="left"> Text to the left.
+    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/> Text to the right.
     </p>
 
  The result is:
 
- <p align="left">
- <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+ <p align="left">  Text to the left.
+ <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  Text to the right.
  </p>
 
-The text after the image is below the image.
+The text after the closing p tag is below the image.
 
 
-# Right align the image with text wrap
+# Right align - simple
 
 Use this html coding:
 
-     <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="right" width="100"/>
+        <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="right" width="100"/> The text that follows is at the left and is very close to the image.  You may want to change your image to include some extra white space on the left hand side.
 
  The result is:
 
- <img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="right" width="100"/>
-
-The text that follows wraps around and is very close to the image.  You may want to change your image to include some extra white space on the left hand side.
+<img src=" ./images/SampleImage.jpg " alt="(Missing image)" align="right" width="100"/>   The text that follows is at the left and is very close to the image.  You may want to change your image to include some extra white space on the left hand side.
 
 
-# Right align the image without text wrap
+# Right align - more control
 
 Use this html coding:
 
-    <p align="right">
-    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+    <p align="right">  Text before.
+    <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  Test after.
     </p>
 
  The result is:
 
- <p align="right">
- <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>
+ <p align="right">  Text before.
+ <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/> Test after.
  </p>
 
-The text after the image is below the image.
-
-
-
+The text after the closing p tag is below the image.
 
 
 

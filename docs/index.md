@@ -6,7 +6,7 @@ nav_order: 1
 
 # MarkdownTest – to see how a topic looks
   
-**Do not trust anything on this site** - this is just for appearance testing by the GenevaERS team.
+**DO NOT TRUST ANYTHING ON THIS SITE** - this for the GenevaERS team to test how markdown topics look.
  
 Template topic is: [SampleMD](SampleMD.md). Please **COPY** the lines in that file to your new topic.
  
