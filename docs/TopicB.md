@@ -5,21 +5,18 @@ nav_order: 21
 
 # First heading for Topic B
 
+Say something impressive again.
 
-# Graphics in Topic B 
-    ````````  
-    ![Missing image]( ./images/genevaers-color.svg )
-    ````````
-
-The result is ![Missing image]( ./images/genevaers-color.svg )
+# Images in Topic B 
   
-# Useful Links 
+See the examples given in "SampleMD" for guidance on images.
 
-Place following text in body of topic:  
+# Links
+
+Place following text in the topic:  
     ````
-        [Topic A](TopicA)
+    [Topic A](TopicA)
     ````
 
+The link displays as:   
 [Topic A](TopicA)
-
-[Home](index)
