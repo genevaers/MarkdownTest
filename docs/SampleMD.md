@@ -40,13 +40,11 @@ Two steps:
 
 There are two ways to refer to an image: (a) markdown coding and (b) html coding.  Option (b) is recommended, but I'll show you both.
 
-Markdown coding means using the following text.  IF THAT LINE ONLY CONSISTS OF 4 OR MORE SPACES AND THEN THE IMAGE CODING BELOW IT WILL FAIL.  Ensure LESS SPACES BEFOREE the exclamation mark:
+Markdown coding means using the following text.  Ensure LESS THAN 4 SPACES BEFORE the exclamation mark:
 
-    ````````  
     See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg )to see what I mean.
-    ````````
 
-Note: the spaces before and after image file path is for safety - without them we can get problems with "regular expressions" and other coding issues.
+Note: the spaces before dot slash and after .jpg are for safety - without them we can get problems with "regular expressions" and other coding issues.
   
 The result is:
 
@@ -54,23 +52,11 @@ The result is:
   
 This suits an icon.  For example image SampleIcon.jpg.  Use this coding.
 
-    ````````  
     Press this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
-    ````````
 
 The result is:
 
- See my fantastic image        ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
-    
-This works well for an icon - see this example.
- 
-    ````````  
-    Press this icon  ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
-    ````````
-
-The result is:
-
-Press this icon  ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+Press this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
 
 So Markdown coding works well for icons.  Howeveer, for most other situations we will see html coding is more useful.
 
@@ -82,22 +68,12 @@ Use the "width" property.
 
     See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
 
-    
-Note: the space before the dot slash and the space after jpg are for safety - without them we can get problems with "regular expressions" and other coding issues.
-
 With the above coding, we get the following.
 
 See my fantastic image <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
 
 
-Height can be specified but does not work.  Whether you put width and height or just height nothing happens.  For example:
-
-     <img src=" ./images/SampleImage.jpg " alt="(Missing image)" height="50"/>
-
-The result is:
-
-<img src=" ./images/SampleImage.jpg " alt="(Missing image)" height="50"/>
-
+The "height" property can be specified but does NOT work. 
 
 # Center the image
 
@@ -179,3 +155,16 @@ If your img coding comes out as text, make sure there are less than 4 spaces bef
 
 If you see (Missing Image) check the spelling of the image file reference.
 
+# Hidden comment in your markdown file
+
+Normally everything you type in a markdown file is seen by the readers of that topic.
+
+To create a comment in your file hidden from readers use this (ensure no spaces at laft):
+
+        [//]: # ( Place comment here )
+    
+ The result is:
+ 
+[//]: # ( Place comment here )
+ 
+Notice that you do not see the comment.
