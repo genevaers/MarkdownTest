@@ -40,40 +40,37 @@ Two steps:
 
 There are two ways to refer to an image: (a) markdown coding and (b) html coding.  Option (b) is recommended, but I'll show you both.
 
-Markdown coding means using the following text.  Ensure LESS THAN 4 SPACES BEFORE the exclamation mark:
+Case (a) is Markdown coding, which means using the text below.  IF THAT LINE STARTS WITH 4 OR MORE SPACES AND THEN THE TEXT BELOW THEN THE IMAGE DOES NOT APPEAR - you see the coding instead.  Ensure LESS than 4 spaces before the coding:
 
-    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg )to see what I mean.
-
-Note: the spaces before dot slash and after .jpg are for safety - without them we can get problems with "regular expressions" and other coding issues.
-  
-The result is:
-
- See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) to see what I mean.
-  
-This suits an icon.  For example image SampleIcon.jpg.  Use this coding.
-
-    Press this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+    See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) and you will really understand.
 
 The result is:
 
-Press this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the groovy part.
+ See my fantastic image ![(Missing image)]( ./images/SampleImage.jpg ) and you will really understand.
+  
+Such a big image does not look good, but this method **works well for an icon**.  An example is this coding:
 
-So Markdown coding works well for icons.  Howeveer, for most other situations we will see html coding is more useful.
+    Click this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the interesting part.
+
+The result is:
+
+ Click this icon ![(Missing image)]( ./images/SampleIcon.jpg ) to see the interesting part.
+      
+      
+Markdown coding works well for icons. Case (b) is html coding.  For most situations html coding is more useful, as we see below.
 
 
 # Size the image
 
-This is where we use html coding instead.
-Use the "width" property.
+See the "width" property in this html coding:
 
-    See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
+    See my fantastic image <img  src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  and you will really understand.
 
 With the above coding, we get the following.
 
-See my fantastic image <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/>  to see what I mean.
+See my fantastic image <img src=" ./images/SampleImage.jpg  " alt="(Missing image)" width="100"/> and you will really understand.
 
-
-The "height" property can be specified but does NOT work. 
+Property "height" can be specified but does not work.  Not sure why.
 
 # Center the image
 
