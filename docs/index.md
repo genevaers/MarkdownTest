@@ -4,9 +4,9 @@ title: Home
 nav_order: 1
 ---
 
-# MarkdownTest – to see how a topic looks
+# MarkdownTest – see how a topic looks
   
-**DO NOT TRUST ANYTHING ON THIS SITE** - this for the GenevaERS team to test how markdown topics look.
+**DO NOT TRUST ANYTHING ON THIS SITE** - used by the GenevaERS team to test how a markdown topic looks.
  
 Template topic is: [SampleMD](SampleMD.md). Please **COPY** the lines in that file to your new topic.
  

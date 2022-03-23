@@ -1,5 +1,5 @@
 # MarkdownTest
-test area for markdown topics
+Test the appearance of markdown topics
 
 Basic idea: 
 1.  Create a topic (say MyTopic.md) in the docs folder.
