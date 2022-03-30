@@ -1,5 +1,4 @@
- ### Format: MR91PARM file                        
-  
+ ### Format: MR91PARM file
 <pre>
 >>---+-INPUT_TYPE=WBXML---------------------+----------------------------------->  
      +-INPUT_TYPE=VDPXML--------------------+    
@@ -22,8 +21,7 @@
 </pre>  
   
 
-### db2 parameters:        
-  
+### db2 parameters:
 <pre>
 |----DB2_SUBSYSTEM=<i>db2-subsystem</i>------------------------------------------------>  
     
@@ -36,8 +34,8 @@
 This is the name of the DB2 subsystem.
   
   
-### selected output-option:                           
-<pre>                           
+### selected output-option:
+<pre>
 |----+-OUTPUT_WB_XML_FILES=Y------+---------------------------------------------|  
      +-OUTPUT_VDP_XML_FILE=Y------+  
      '-OUTPUT_RUN_CONTROL_FILES=Y-'  
