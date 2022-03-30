@@ -1,10 +1,9 @@
- Format: MR91PARM file                                                                                                                          
+ ### Format: MR91PARM file                                                                                                                          
 
- >>---+-INPUT_TYPE=WBXML---------------------+-----------------------------------> 
-      +-INPUT_TYPE=VDPXML--------------------+ 
-      '-INPUT_TYPE=DB2----+ db2 parameters +-'
-                                                                                  
-      .-OUTPUT_WB_XML_FILES=N-.                                                  
+     >>---+-INPUT_TYPE=WBXML---------------------+----------------------------------->      
+          +-INPUT_TYPE=VDPXML--------------------+   
+          '-INPUT_TYPE=DB2----+ db2 parameters +-'                                                      
+          .-OUTPUT_WB_XML_FILES=N-.                                                    
  >----+-----------------------+--------------------------------------------------> 
                                                                                    
       .-OUTPUT_VDP_XML_FILE=N-.                                                     
