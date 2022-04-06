@@ -3,7 +3,7 @@
 ## GVBMR91 Input File Syntax   
   
 ### Format: MR91PARM file  
-<pre>
+<pre><body bgcolor=gray>
 ►►───┬─INPUT_TYPE=WBXML─────────────────────┬───────────────────────────────────►  
      ├─INPUT_TYPE=VDPXML────────────────────┤    
      └─INPUT_TYPE=DB2────┤ db2 parameters ├─┘  
@@ -43,10 +43,10 @@
 </pre>
   
 *`db2-subsystem`*    
-This is the name of the Db2 subsystem where your data resides.  (For example, DM12.)
+This is the name of the Db2 subsystem where your metadata resides.  (For example, DM12.)
   
 *`db2-schema`*    
-This is the name of the Db2 schema where your data resides.  (For example, GENDEV.)
+This is the name of the Db2 schema where your metadata resides.  (For example, GENDEV.)
   
 *`db2-environment-id`*    
 This is the environment ID (such as 15) of the location of the GenevaERS views to be selected.  
