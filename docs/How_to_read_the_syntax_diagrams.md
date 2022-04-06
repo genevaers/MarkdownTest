@@ -3,10 +3,10 @@
 The following structures are used in describing the syntax of GenevaERS program control statements and the GenevaERS logic text language.    
 
 - Read the syntax diagrams from left to right, from top to bottom, following the path of the line.  
-  - The ►►── symbol indicates the beginning of a command.  
-  - The ───► symbol indicates that the command syntax is continued on the next line.
-  - The ◄─── symbol indicates that a command is continued from the preceding line.  
-  - The ──►◄ symbol indicates the end of a command.  
+  - The `►►──` symbol indicates the beginning of a command.  
+  - The `───►` symbol indicates that the command syntax is continued on the next line.
+  - The `◄───` symbol indicates that a command is continued from the preceding line.  
+  - The `──►◄` symbol indicates the end of a command.  
   
      
 - Required items appear on the horizontal line (main path).
@@ -61,7 +61,7 @@ execution of the statement and is used only for readability.
      
 - If punctuation marks, parentheses, arithmetic operators, or other such symbols are shown, you must enter them as part of the syntax.
 
-- Sometimes a diagram must be split into fragments. The syntax fragment is shown separately from the main syntax diagram, but the contents of the fragment should be read as if they are on the main path of the diagram.
+- Sometimes, for readability, a diagram must be split into fragments. The syntax fragment is shown separately from the main syntax diagram, but the contents of the fragment should be read as if they are on the main path of the diagram.
   
 <pre>
 <i>    ►►──required_item</i>──┤ fragment-name ├───────────────────────────►◄
