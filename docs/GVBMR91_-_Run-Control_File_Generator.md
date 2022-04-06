@@ -3,7 +3,7 @@
 ## GVBMR91 Input File Syntax   
   
 ### Format: MR91PARM file  
-<pre><body bgcolor=gray>
+<pre><body bgcolor="LightGray">
 ►►───┬─INPUT_TYPE=WBXML─────────────────────┬───────────────────────────────────►  
      ├─INPUT_TYPE=VDPXML────────────────────┤    
      └─INPUT_TYPE=DB2────┤ db2 parameters ├─┘  
@@ -22,7 +22,7 @@
 ►──────┤ selected output-option ├─┴─────────────────────────────────────────────►  
     
 ►────┤ general options ├───────────────────────────────────────────────────────►◄ 
-</pre>  
+<body bgcolor="LightGray"</pre>  
   
 
 ### db2 parameters:
