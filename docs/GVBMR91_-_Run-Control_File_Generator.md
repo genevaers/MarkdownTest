@@ -22,7 +22,7 @@
 ►──────┤ selected output-option ├─┴─────────────────────────────────────────────►  
     
 ►────┤ general options ├───────────────────────────────────────────────────────►◄ 
-<body bgcolor="LightGray"</pre>  
+<body bgcolor="LightGray"></pre>  
   
 
 ### db2 parameters:
