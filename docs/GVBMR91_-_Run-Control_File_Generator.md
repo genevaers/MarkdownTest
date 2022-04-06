@@ -4,6 +4,10 @@
   
 ### Format: MR91PARM file  
 <pre>
+►►───┬─INPUT_TYPE=WBXML─────────────────────┬───────────────────────────────────►  
+     ├─INPUT_TYPE=VDPXML────────────────────┤    
+     └─INPUT_TYPE=DB2────┤ db2 parameters ├─┘  
+       
 >>---+-INPUT_TYPE=WBXML---------------------+----------------------------------->  
      +-INPUT_TYPE=VDPXML--------------------+    
      '-INPUT_TYPE=DB2----| db2 parameters |-'  
