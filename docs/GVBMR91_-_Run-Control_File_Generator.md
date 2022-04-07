@@ -3,7 +3,7 @@
 ## GVBMR91 Input File Syntax   
   
 ### Format: MR91PARM file  
-<pre><body bgcolor="LightGray">
+<pre>
 ►►───┬─INPUT_TYPE=WBXML─────────────────────┬───────────────────────────────────►  
      ├─INPUT_TYPE=VDPXML────────────────────┤    
      └─INPUT_TYPE=DB2────┤ db2 parameters ├─┘  
@@ -22,8 +22,7 @@
 ►──────┤ selected output-option ├─┴─────────────────────────────────────────────►  
     
 ►────┤ general options ├───────────────────────────────────────────────────────►◄ 
-<body bgcolor="LightGray"></pre>  
-  
+</pre>
 
 ### db2 parameters:
 <pre>
@@ -42,6 +41,62 @@
      └─OUTPUT_RUN_CONTROL_FILES=Y─┘  
 </pre>
   
+### general options:
+<pre>
+     ┌─NUMBER_MODE=STANDARD─┐                                                     
+►────┼──────────────────────┼───────────────────────────────────────────────────► 
+     └─NUMBER_MODE=LARGE────┘                                                     
+                                       
+     ┌─TRACE=N─┐                                                        
+►────┼─────────┼────────────────────────────────────────────────────────────────► 
+     └─TRACE=Y─┘                                                        
+</pre>
+  
+### Format: WBXMLS file  
+<pre>
+<i>►►───┬─────────────────┬───────────────────────────────────────────────────────►◄</i> 
+<i>     │ ┌─────────────┐ │                                                        </i>
+<i>     │ ▼             │ │                                                        </i>
+<i>     └───member-name─┴─┘ </i>
+</pre>
+Note: If the WBXMLS file is empty, all members are selected.    
+
+### Format: VDPXMLS file
+<pre>
+<i>►►───┬─────────────────┬───────────────────────────────────────────────────────►◄</i>
+<i>     │ ┌─────────────┐ │                                                        </i>
+<i>     │ ▼             │ │                                                        </i>
+<i>     └───member-name─┴─┘ </i>
+</pre>
+Note: If the VDPXMLS file is empty, all members are selected.   
+    
+### Format: DBFLDRS file
+<pre>
+<i>►►───┬───────────────┬─────────────────────────────────────────────────────────►◄</i> 
+<i>     │ ┌───────────┐ │                                                        </i>
+<i>     │ ▼           │ │                                                        </i>
+<i>     └───folder-id─┴─┘ </i>
+</pre>
+  
+### Format: DBVIEWS file
+<pre>
+<i>►►───┬─────────────┬───────────────────────────────────────────────────────────►◄</i> 
+<i>     │ ┌─────────┐ │                                                        </i>
+<i>     │ ▼         │ │                                                        </i>
+<i>     └───view-id─┴─┘ </i>
+</pre>
+Note: If INPUT_TYPE=DB2, then the DBVIEWS file is checked.  If it is empty or missing, then the DBFLDRS file is checked.  If it is empty or missing, then an error is displayed.   
+    
+### Format: RUNVIEWS file
+<pre>
+<i>►►───┬─────────────┬───────────────────────────────────────────────────────────►◄</i>
+<i>     │ ┌─────────┐ │                                                        </i>
+<i>     │ ▼         │ │                                                        </i>
+<i>     └───view-id─┴─┘ </i>
+</pre>
+Note: If the RUNVIEWS file is empty, all views are selected.  
+
+
 *`db2-subsystem`*    
 This is the name of the Db2 subsystem where your metadata resides.  (For example, DM12.)
   
