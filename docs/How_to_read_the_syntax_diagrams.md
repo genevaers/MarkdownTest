@@ -59,8 +59,6 @@ execution of the statement and is used only for readability.
 </pre>
 - A repeat arrow above a stack indicates that you can repeat the items in the stack.
      
-- If punctuation marks, parentheses, arithmetic operators, or other such symbols are shown, you must enter them as part of the syntax.
-
 - Sometimes, for readability, a diagram must be split into fragments. The syntax fragment is shown separately from the main syntax diagram, but the contents of the fragment should be read as if they are on the main path of the diagram.
   
 <pre>
@@ -71,3 +69,12 @@ execution of the statement and is used only for readability.
 <i>    ├───required_item──┬───────────────┬────────────────────────────┤</i>
 <i>                       └─optional_item─┘</i>   
 </pre>
+  
+- Keywords appear in uppercase (for example, FILE). Keywords must be spelled exactly as shown. 
+
+- Variables appear in all lowercase letters (for example, *field-name*). They represent user-supplied names or values.
+  
+- If punctuation marks, parentheses, arithmetic operators, or other such symbols are shown, you must enter them as part of the syntax.
+
+
+
