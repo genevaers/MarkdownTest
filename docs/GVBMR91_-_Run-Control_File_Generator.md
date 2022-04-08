@@ -106,3 +106,4 @@ This is the name of the Db2 schema where your metadata resides.  (For example, G
 *`db2-environment-id`*    
 This is the environment ID (such as 15) of the location of the GenevaERS views to be selected.  
     
+[!INCLUDE index.md]
