@@ -18,16 +18,16 @@
 ►────┼─────────────────────────────┼────────────────────────────────────────────►
      └─ABEND_ON_DIVISION_BY_ZERO=N─┘            
 
-     ┌─RUN_DATE=current-date─┐                                                    
+     ┌─RUN_DATE=<i>current-date</i>─┐                                                    
 ►────┼───────────────────────┼──────────────────────────────────────────────────► 
-     └─RUN_DATE=ccyymmdd─────┘ 
+     └─RUN_DATE=<i>ccyymmdd</i>─────┘ 
 
-     ┌─FISCAL_DATE_DEFAULT=run-date─┐ 
+     ┌─FISCAL_DATE_DEFAULT=<i>run-date</i>─┐ 
 ►────┼──────────────────────────────┼───────────────────────────────────────────► 
-     └─FISCAL_DATE_DEFAULT=ccyymmdd─┘ 
+     └─FISCAL_DATE_DEFAULT=<i>ccyymmdd</i>─┘ 
 
      ┌─────────────────────────────────────────────────────┐ 
      ▼                                                     │ 
 ►──────┬─────────────────────────────────────────────────┬─┴───────────────────►◄ 
-       └─FISCAL_DATE_OVERRIDE=control-record-id:ccyymmdd─┘
+       └─FISCAL_DATE_OVERRIDE=<i>control-record-id:ccyymmdd</i>─┘
 </pre>            
