@@ -4,5 +4,5 @@
     
 [Link](GVBMR91_Parameter_File_Syntax)
   
-## GVBMR91 DD Names
+## GVBMR91 DD Statements 
 
