@@ -15,5 +15,3 @@
 |       | SYSOUT         | SORT Message File                 | If SORT_EXTRACT_FILE=Y | PS    | VB    | 164 |
 |       | (User-Defined) | Format-Phase View-Output files    | A file is required for every view in the Extract-Phase Work File.           | PS    | (User-Defined) | (User-Defined) |
   
-Note 1: A file is required for every work file created in the Reference Phase.  
-Note 2: A file is required for every view in the Extract-Phase Work File.
