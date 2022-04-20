@@ -11,9 +11,9 @@
 | | EXTRREH  | Reference Extract Header File | Yes | PS | FB | 100 |
 | | REFR*nnn* | Reference-Phase Work File *nnn* | A file is required for every lookup table used in the current set of views | PS | VB | 4144 |
 | | (User-Defined) | Source Data Files | A file is required for every source file used in the current set of views | PS | (User-Defined) | (User-Defined) |
-| Output | EXTRRPT | Control Report | Yes | PS | VB | 164 |
-| | EXTRLOG  | Log File | Yes | PS | VB | 164 |
-| | EXTRTRAC | Trace File | If TRACE=Y | PS | VB | 164 |
+| Output | EXTRRPT | GVBMR95E Control Report | Yes | PS | VB | 164 |
+| | EXTRLOG  | GVBMR95E Log File | Yes | PS | VB | 164 |
+| | EXTRTRAC | GVBMR95E Trace File | If TRACE=Y | PS | VB | 164 |
 | | EXTRDUMP | Logic Table Dump File | If DUMP_LT_AND_ GENERATED_CODE=Y | PS | VB | 164 |
 | | EXTR*nnn* | Extract-Phase Work File *nnn* | A file is required for every unique Extract-Phase Work File requested by the current set of views | PS | VB | 8192–32756 |
 | | SORT*nnn* | SORT Control Statement File *nnn* | A file is required for every unique Extract-Phase Work File requested by the current set of views | PS | VB | 8192–32756 |
