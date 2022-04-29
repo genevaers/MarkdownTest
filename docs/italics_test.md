@@ -39,11 +39,11 @@ This is the name of the DB2 subsystem.
 triple backtick code 
 
 ```
-|----DB2_SUBSYSTEM=*db2_subsystem*------------------------------------------------>  
+|----DB2_SUBSYSTEM=`*`db2_subsystem`*`------------------------------------------------>  
   
-<----DB2_SCHEMA=*db2-schema*------------------------------------------------------>
+<----DB2_SCHEMA=`*`db2-schema`*`------------------------------------------------------>
   
-<----DB2_ENVIRONMENT_ID=*db2_environment-id*--------------------------------------|
+<----DB2_ENVIRONMENT_ID=`*`db2_environment-id`*`--------------------------------------|
 ```
 
 *`db2_subsystem`*    
