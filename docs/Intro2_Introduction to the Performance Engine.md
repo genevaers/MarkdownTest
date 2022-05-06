@@ -14,7 +14,7 @@ This page provides you with an introduction to the GenevaERS Performance Engine 
 # GenevaERS Overview
 <div style="clear: right" > <img style="float: right;" width="50%" vspace="5" alt="GenevaERS Overview" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide3.jpeg title="GenevaERS Overview"/>
 
-As we noted in the “Introduction to GenevaERS Views” module of this training course, GenevaERS consists of two software components: a PC-based Workbench and a mainframe-based batch process known as the Performance Engine. Developers use the Workbench to build applications that are stored in a metadata repository in a database. These applications are then executed by the Performance Engine, which reads data from source files or databases, transforms it, and writes it to output files. In this sense, GenevaERS is an application development tool and is not fundamentally different from any other tool or language. 
+As we noted in the “Introduction to GenevaERS Views," GenevaERS consists of two software components: a PC-based Workbench and a mainframe-based batch process known as the Performance Engine. Developers use the Workbench to build applications that are stored in a metadata repository in a database. These applications are then executed by the Performance Engine, which reads data from source files or databases, transforms it, and writes it to output files. In this sense, GenevaERS is an application development tool and is not fundamentally different from any other tool or language. 
 
 
 # Performance Engine Phases
@@ -99,14 +99,18 @@ MR95 reads the MR77 VDP file, the MR76 XLT file, and the REH, and RED files crea
 
 MR95 executes various transformations and, depending on specifications in the selected views, produces one or more View Output files. It may also produce one or more Extract Work files, which are temporary files processed by the Format phase. Finally, it produces an MR95 Report, which presents summary statistics for the process.  
 
+<div style="clear: right" >
+
 ## Specifying the Source Files in the JCL
 
-<div style="clear: right" ><img style="float: right;" width="50%" vspace="5" alt="GenevaERS Extract JCL" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide17.jpeg title="GenevaERS Extract JCL"/>
+<img style="float: right;" width="50%" vspace="5" alt="GenevaERS Extract JCL" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide17.jpeg title="GenevaERS Extract JCL"/>
 
 Before running the Extract phase job, you must make sure that DD statements for any required input files are included, containing the data to be scanned and extracted according to the view requirements. The DD names (such as CUSTOMER or ORDER001) must match those in the Workbench physical files referenced by the views being run.
 
+<div style="clear: right" > 
+
 ## Specifying the View Output Files
-<div style="clear: right" ><img style="float: right;" width="50%" vspace="5" alt="GenevaERS Extract JCL 2" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide18.jpeg title="GenevaERS Extract JCL 2"/>
+<img style="float: right;" width="50%" vspace="5" alt="GenevaERS Extract JCL 2" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide18.jpeg title="GenevaERS Extract JCL 2"/>
 
 
 Similarly, you also must ensure that DD statements for any required output files are included. These DD names are determined by view parameters in the Workbench.
@@ -125,6 +129,8 @@ The Extract phase MR95 Report displays statistics that are useful for audit trai
 
 <img style="float: right;" width="50%" vspace="5" alt="GenevaERS Extract Phase Logict Table" src=images/Module2-GenevaERS_Performance_Engine_Overview/Module2_Slide20.jpeg title="GenevaERS Extract Phase Logic Table"/>
 A secondary program in the Extract phase is GVBUT90, which produces the UT90 Report. This report displays information from the Extract Logic Table (XLT), which shows each step that is executed in a data transformation. This is useful information for debugging views. A more detailed discussion of the logic table is presented in the training module entitled “Basic Debugging.” 
+
+<div style="clear: right" > 
 
 ## Format Phase Data Flow
 
