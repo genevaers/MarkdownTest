@@ -25,10 +25,10 @@ Function Code - Function Description - Discussed on Page
 - GOTO - Unconditional Go To - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
 - DTC - Build DT Area From Constant - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
 - DTE -Build DT Area From Event Field - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
-- DTL - Build DT Area From Lookup Field
-- JOIN - Join data through Lookup
-- LUSM -Lookup From Memory Table
-- LKE - Build Lookup Key From Event Field
+- DTL - Build DT Area From Lookup Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
+- JOIN - Join data through Lookup - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
+- LUSM -Lookup From Memory Table - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
+- LKE - Build Lookup Key From Event Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
 - LKL - Build Lookup Key From Lookup Field
 - LKLR - Build Lookup LR
 - LKC - Build Lookup Key From Constant

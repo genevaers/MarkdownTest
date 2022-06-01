@@ -18,6 +18,8 @@ This page covers the following Logic Table Function Codes:
 - DTC - Build DT Area From Constant
 - DTE - Build DT Area From Event Field
 
+[Other Logic Table Functions Codes can be located here.](Intro11a_Logic_Table_Function_Codes.md)
+
 <div style="clear: right" >
 
 # Single Pass Overview

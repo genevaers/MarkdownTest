@@ -22,6 +22,8 @@ It covers these Logic Table Function Codes, explained below:
 - WRIN - Write Input Record
 - CFEC - Compare Field Event Field to Constant
 
+[Other Logic Table Functions Codes can be located here.](Intro11a_Logic_Table_Function_Codes.md)
+
 <div style="clear: right" >
 
 <img style="float: right;" width="50%" vspace="5" alt="Workbench and the Logic Table" src=images/Module11-Logic_Table_and_Trace/Module11_Slide3.jpeg title="Workbench and the Logic Table"/>
