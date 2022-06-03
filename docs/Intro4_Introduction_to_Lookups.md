@@ -1,6 +1,6 @@
 ---
 title: Introduction to Lookups
-nav_order: 22
+nav_order: 4
 ---
 
 # Introduction to GenevaERS Lookups

@@ -1,6 +1,6 @@
 ---
 title: Introduction to GenevaERS Metadata Creation
-nav_order: 22
+nav_order: 9
 ---
 
 # Introduction to GenevaERS Metadata Creation

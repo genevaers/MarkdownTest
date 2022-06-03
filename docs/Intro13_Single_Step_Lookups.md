@@ -1,6 +1,6 @@
 ---
 title: Introduction to Single Step Lookups
-nav_order: 22
+nav_order: 13
 ---
 
 # Introduction to Single Step Lookup

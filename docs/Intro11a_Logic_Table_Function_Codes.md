@@ -17,24 +17,27 @@ Function Code - Function Description - Discussed on Page
 - WRDT -Write DT Area Only - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
 - WRXT - Write Standard Extract
 - WRSU - Write Extract Time Summarization
-- CFEC - Compare Field Event Field to Constant
-- CFEE - Compare Field Event F. to Event Field
-- CFLC - Compare Lookup Field to Constant
-- CFEL - Compare Field Event F. to Lookup F.
+- CFEC - Compare Field Event Field to Constant - [Intro to the Logic Table and Trace Function](Intro11_Logic_Table_and_Trace_Introduction.md)
+- CFEE - Compare Field Event F. to Event Field - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
+- CFLC - Compare Lookup Field to Constant - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
+- CFEL - Compare Field Event F. to Lookup F.  - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
+- CFLL, Compares fields, Looked-up field to Looked-up field - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
 - CNE - Compare, Numeric - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
+- CNL, a Class Test Numeric on a looked up value, similar to a CNE  - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
 - GOTO - Unconditional Go To - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
 - DTC - Build DT Area From Constant - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
 - DTE -Build DT Area From Event Field - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
-- DTL - Build DT Area From Lookup Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
-- JOIN - Join data through Lookup - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
-- LUSM -Lookup From Memory Table - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
-- LKE - Build Lookup Key From Event Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookup.md)
-- LKL - Build Lookup Key From Lookup Field
-- LKLR - Build Lookup LR
-- LKC - Build Lookup Key From Constant
-- LKS - Build Lookup from Symbolic Value
-- LKDC - Build Lookup Effective Date Cons.
-- LKDE - Build Lookup Effective Date Event F.
+- DTL - Build DT Area From Lookup Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookups.md)
+- JOIN - Join data through Lookup - [Intro to Single Step Lookup](Intro13_Single_Step_Lookups.md)
+- LUSM -Lookup From Memory Table - [Intro to Single Step Lookup](Intro13_Single_Step_Lookups.md)
+- LKE - Build Lookup Key From Event Field - [Intro to Single Step Lookup](Intro13_Single_Step_Lookups.md)
+- LKL - Build Lookup Key From Lookup Field - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
+- LKLR - Build Lookup LR - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
+- LKC - Build Lookup Key From Constant - [Intro to Constant and Symbolic Lookup](Intro15_Constant_and_Symbolic_Lookups.md)
+- LKS - Build Lookup from Symbolic Value - [Intro to Constant and Symbolic Lookup](Intro15_Constant_and_Symbolic_Lookups.md)
+- LKDC - Build Lookup Effective Date Constant - [Intro to Date Effective Lookup](Module16-Date_Effective_Lookups.md)
+- LKDE - Build Lookup Effective Date Event File - [Intro to Date Effective Lookup](Module16-Date_Effective_Lookups.md)
+- LKDL, builds a date effective lookup key from a looked up record - [Intro to Date Effective Lookup](Module16-Date_Effective_Lookups.md)
 - SKC - Build Sort Key From Constant
 - SKE - Build Sort Key From Event Field
 - SKL - Build Sort Key From Lookup Field
