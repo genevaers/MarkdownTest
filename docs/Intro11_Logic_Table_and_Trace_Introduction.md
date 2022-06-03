@@ -1,6 +1,6 @@
 ---
 title: Introduction to the Logic Table and Trace Function
-nav_order: 22
+nav_order: 11
 ---
 
 # Introduction to the Logic Table and Trace Function

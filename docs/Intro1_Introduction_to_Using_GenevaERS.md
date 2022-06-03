@@ -1,6 +1,6 @@
 ---
 title: Introduction to Using GenevaERS
-nav_order: 22
+nav_order: 1
 ---
 
 # Introduction to Using GenevaERS

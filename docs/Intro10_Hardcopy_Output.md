@@ -1,6 +1,6 @@
 ---
 title: Introduction to GenevaERS Hardcopy Output
-nav_order: 22
+nav_order: 10
 ---
 
 # Introduction to GenevaERS Hardcopy Output

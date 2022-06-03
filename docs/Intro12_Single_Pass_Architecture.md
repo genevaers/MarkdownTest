@@ -1,6 +1,6 @@
 ---
 title: Introduction to the Single Pass Architecture
-nav_order: 22
+nav_order: 12
 ---
 
 # Introduction to the Single Pass Architecture

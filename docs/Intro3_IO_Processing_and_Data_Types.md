@@ -1,6 +1,6 @@
 ---
 title: IO Processing and Data Types
-nav_order: 22
+nav_order: 3
 ---
 
 # Introduction to the GenevaERS IO Processing and Data Type
