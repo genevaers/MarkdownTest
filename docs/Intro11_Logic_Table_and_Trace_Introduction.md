@@ -230,7 +230,9 @@ The following are the more detailed trace control parameters:
 - MSGABEND will cause MR95 to abend if it produces a specific error number, like an 0C7 data exception.
 - VPOS, VLEN, and VALUE parameters trace only when the data at position for length on the source record is equal to a specific value.
 
-Although these functions are very powerful, they significantly increase GVBMR95 processing time even if they suppress trace records from being printed to the output file. Therefore, reducing the file size is much more efficient if possible.  We’ll show examples of how to use them to find and fix problems in more detail in Module 15, Lookups using Constants and Symbolics 
+Although these functions are very powerful, they significantly increase GVBMR95 processing time even if they suppress trace records from being printed to the output file. Therefore, reducing the file size is much more efficient if possible.  We’ll show examples of how to use them to find and fix problems in more detail in [Introduction to Constant and Symbolic Lookups](Intro15_Constant_and_Symbolic_Lookups.md#logic-table-trace).
+
+For additional trace parameters, see [GenevaERS Parallelism](Intro19-Parallelism.md#logic-table-trace-parameters).
 
 <div style="clear: right" >
 
