@@ -1,6 +1,6 @@
 ---
 title: Introduction to Format Phase Views
-nav_order: 17
+nav_order: 18
 ---
 
 # Introduction to Format Phase Views
@@ -337,7 +337,7 @@ In this example, the KSLK function save the lookup key of 0001 into the Sort Tit
 
 <img style="float: right;" width="50%" vspace="5" alt="Function Overview" src=images/Module17-Format_Phase_Views/Module17_Slide31.jpeg title="Function Overview"/>
 
-This logic table and this page has introduced the following Logic Table Function Code:
+This page has introduced the following Logic Table Function Code:
 - SK functions, including SKC, SKE, and SKL, to build Sort Keys. 
 - CT functions, including CTC, CTE, and CTL, to build Calculated Transformations
 - WRXT, which writes the extract record to a standard extract file

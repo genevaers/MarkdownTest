@@ -1,6 +1,6 @@
 ---
 title: Introduction to Constant and Symbolic Lookups
-nav_order: 15
+nav_order: 16
 ---
 
 # Introduction to Constant and Symbolic Lookup
@@ -266,7 +266,7 @@ The following are descriptions of other trace parameters we have not examined in
 <img style="float: right;" width="50%" vspace="5" alt="Function Overview" src=images/Module15-Constant_and_Symbolic_Lookups/Module15_Slide24.jpeg title="Function Overview"/>
 
 
-This logic table and his page has introduced the following Logic Table Function Code:
+This page has introduced the following Logic Table Function Code:
 - LKC, builds a look up key using a constant
 - LKS, builds a look up key using a symbolic
 

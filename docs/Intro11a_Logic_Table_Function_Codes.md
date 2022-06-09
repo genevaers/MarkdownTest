@@ -1,6 +1,6 @@
 ---
 title: Logic Table Function Codes
-nav_order: 22
+nav_order: 11a
 ---
 
 # Logic Table Function Codes
@@ -14,9 +14,9 @@ Function Code - Function Description - Discussed on Page
 - ES - End of Source File Set of Views - [Intro to the Logic Table and Trace Function](Intro11_Logic_Table_and_Trace_Introduction.md)
 - EN - End of Logic Table - [Intro to the Logic Table and Trace Function](Intro11_Logic_Table_and_Trace_Introduction.md)
 - WRIN - Write Input Record - [Intro to the Logic Table and Trace Function](Intro11_Logic_Table_and_Trace_Introduction.md)
-- WRDT -Write DT Area Only - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md)
-- WRXT - Write Standard Extract - [Intro to Format Phase Views](Module17-Format_Phase_Views.md)
-- WRSU - Write Extract Time Summarization - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
+- WRDT -Write DT Area Only - [Intro to Single Pass Architecture](Intro12_Single_Pass_Architecture.md). See also - [Introduction to the Write Function](Intro21-The_Write_Function.md)
+- WRXT - Write Standard Extract - [Intro to Format Phase Views](Module17-Format_Phase_Views.md). See also - [Introduction to the Write Function](Intro21-The_Write_Function.md)
+- WRSU - Write Extract Time Summarization - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md). See also - [Introduction to the Write Function](Intro21-The_Write_Function.md)
 - CFEC - Compare Field Event Field to Constant - [Intro to the Logic Table and Trace Function](Intro11_Logic_Table_and_Trace_Introduction.md)
 - CFEE - Compare Field Event F. to Event Field - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
 - CFLC - Compare Lookup Field to Constant - [Intro to Multi Step Lookup](Intro14_Multi_Step_Lookups.md)
@@ -45,9 +45,9 @@ Function Code - Function Description - Discussed on Page
 - CTE - Build CT Area From Event Field  - [Intro to Format Phase Views](Module17-Format_Phase_Views.md)
 - CTL - Build CT Area From Lookup Field  - [Intro to Format Phase Views](Module17-Format_Phase_Views.md)
 - KSLK - Saves the Look Up Key for a Sort Title on hard copy reports  - [Intro to Format Phase Views](Module17-Format_Phase_Views.md)
-- RENX - Read Event File Record with Exit
-- LUEX - Lookup Via Lookup Exit
-- WREX - Write Via Write Exit
+- RENX - Read Event File Record with Exit - [Introduction to User Exits](Intro-User-Exit_Routines.md)
+- LUEX - Lookup Via Lookup Exit - [Introduction to User Exits](Intro-User-Exit_Routines.md)
+- WREX - Write Via Write Exit - [Introduction to User Exits](Intro-User-Exit_Routines.md). See also - [Introduction to the Write Function](Intro21-The_Write_Function.md)
 - DIM1 - declare a 1 byte variable - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
 - DIMS - declare a string variable - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
 - SETE - set from Event File Field - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
@@ -64,6 +64,9 @@ Function Code - Function Description - Discussed on Page
 - CFAP - compare Accumulator to Prior Event field - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
 - CFER - compare Event field to constant range - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
 - CFLS - Does a Look up field contain the string - [Intro to ETS and other Functions](Module18-ETS_and_Other_Functions.md)
+- WRTK - Function to Write to a Token - [Using Pipes and Tokens](Intro22-Using_Pipes_and_Tokens.md)
+- RETK - Function to Read from a Token - [Using Pipes and Tokens](Intro22-Using_Pipes_and_Tokens.md)
+- ET - End of Token (ES for Tokens) - [Using Pipes and Tokens](Intro22-Using_Pipes_and_Tokens.md)
 
 
 <div style="clear: right" > 
