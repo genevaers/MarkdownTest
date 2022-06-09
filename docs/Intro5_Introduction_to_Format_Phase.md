@@ -1,6 +1,6 @@
 ---
 title: Introduction to Format Phase
-nav_order: 5
+nav_order: 6
 ---
 
 # Introduction to GenevaERS Format Phase

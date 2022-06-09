@@ -1,6 +1,6 @@
 ---
 title: Introduction to Date Effective Lookups
-nav_order: 16
+nav_order: 17
 ---
 
 # Introduction to Date Effective Lookup
@@ -326,7 +326,7 @@ In summary, typical Date Effective Processing Problems:
 
 <img style="float: right;" width="50%" vspace="5" alt="Function Overview" src=images/Module16-Date_Effective_Lookups/Module16_Slide29.jpeg title="Function Overview"/>
 
-This logic table and this page has introduced the following Logic Table Function Code:
+This page has introduced the following Logic Table Function Code:
 - LKDC, builds a date effective lookup key from a constant
 - LKDE, builds a date effective lookup key from the source Event record
 

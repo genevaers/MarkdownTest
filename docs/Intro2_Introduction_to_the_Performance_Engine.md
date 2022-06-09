@@ -1,6 +1,6 @@
 ---
 title: Introduction to the Performance Engine
-nav_order: 2
+nav_order: 3
 ---
 
 # Introduction to the GenevaERS Performance Engine

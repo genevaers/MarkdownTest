@@ -1,6 +1,6 @@
 ---
 title: Introduction to Record Filtering
-nav_order: 6
+nav_order: 7
 ---
 
 # Introduction to GenevaERS Record Filtering

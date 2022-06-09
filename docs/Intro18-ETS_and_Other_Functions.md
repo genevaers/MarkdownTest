@@ -1,6 +1,6 @@
 ---
 title: Introduction to Extract Time Summarization (ETS) and Other Functions
-nav_order: 18
+nav_order: 19
 ---
 
 # Introduction to Extract Time Summarization (ETS) and Other Functions
@@ -316,7 +316,7 @@ Example
 
 <img style="float: right;" width="50%" vspace="5" alt="Function Overview" src=images/Module18-ETS_and_Other_Functions/Module18_Slide23.jpeg title="Function Overview"/>
 
-This logic table and this page has introduced the following Logic Table Function Code:
+This page has introduced the following Logic Table Function Code:
 - WRSU - writes summarized Standard Extract File records. 
 Other less common logic table functions were also introduced:
 - DIM1 - declare a 1 byte variable
