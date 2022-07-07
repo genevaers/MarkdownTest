@@ -300,85 +300,10 @@ Exits must be written following the GenevaERS User Exit guidelines.   These spec
     - An End of File on for a Read exit, or 
     - Write the standard extract record, Write a different record and then return to the exit for processing, or Skip the extract record and continue processing for Write Exits
 
-All Exits may signal view or process level errors as well
+All Exits may signal view or process level errors as well.
 
-The following are the data structures involved:
+More details about how to create a user exit can be found in the [User Exit Programming Guide](UserExitGuide.md)
 
-##  Phase Codes
-```
-  01  X95PARM1-ENV-DATA.
-
-       05  X95PARM1-THREAD-NBR         PIC S9(04)  COMP.
-
-       05  X95PARM1-PHASE-CODE         PIC  X(02).
-
-           88  X95PARM1-OPEN-PHASE     VALUE 'OP'.
-
-           88  X95PARM1-READ-PHASE     VALUE 'RD'.
-
-           88  X95PARM1-CLOSE-PHASE    VALUE 'CL'.
-
-       05  X95PARM1-CURRENT-VIEW-ID    PIC S9(09)  COMP.
-
-  *During The Open Phase, Read Exits Should 
-
-  *Return The First Event Record.
-```
-
-##  Pointers
-```  
-  X95PARM2-PROCESS-DATE-TIME
-
-  X95PARM3-STARTUP-DATA
-  
-  X95PARM4-EVENT-REC
-  
-  X95PARM5-EXTRACT-REC
-  
-  X95PARM6-LOOKUP-KEY (join values)
-  
-  X95PARM7-WORK-AREA-ANCHOR
-
-  X95PARM8-RETURN-CODE
-
-  X95PARM9-RESULT-PTR
-
-  X95PARMA-RESULT-BLOCK-SIZE`
-```
-##  Return Codes
-```
-     01  X95PARM8-RETURN-CODE        PIC S9(09)  COMP.
-
-  *  All Exits:
-
-       88  X95PARM8-SUCCESSFUL             VALUE +0.
-
-  *  Lookup Exits Only:
-
-       88  X95PARM8-NOT-FOUND              VALUE +4.
-
-  *  Write Exits Only:
-
-       88  X95PARM8-WRITE-AND-REPEAT-CALL  VALUE +4.
-
-  *  READ EXITS ONLY:
-
-       88  X95PARM8-END-OF-FILE            VALUE +8.
-
-  *  LOOKUP EXITS ONLY:
-
-       88  X95PARM8-SKIP-EVENT-REC         VALUE +8.
-
-  *  WRITE EXITS ONLY: 
-
-       88  X95PARM8-SKIP-EXTRACT-REC       VALUE +8.
-
-  *  ALL EXITS:
-
-       88  X95PARM8-DISABLE-CURRENT-VIEW   VALUE +12.
-
-       88  X95PARM8-ABORT-RUN              VALUE +16.
-```
 <div style="clear: right" >
 
 ## GenevaERS Standard Sort Exit
